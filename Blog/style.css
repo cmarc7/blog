@@ -1,3 +1,15 @@
+header {
+    background-color: #38b7c0d7;
+    color: #fff;
+    margin: 0;
+    padding: 2px;
+}
+
+header h1 {
+    font-family: 'Sono', sans-serif;
+    font-size: 3rem;
+}
+
 h1 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -28,4 +40,30 @@ p {
 
 .footix-container img {
     width: 388px;
+}
+
+footer {
+    background-color: #38b7c0d7;
+    padding: 2rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    display: inline;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #bebe05;;
 }
