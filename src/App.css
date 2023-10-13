@@ -1,0 +1,25 @@
+.App {
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+header {
+  background-color: #38b7c0d7;
+  color: #fff;
+  margin: 0;
+  padding: 2px;
+}
+
+header p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+img {
+  width: 900px;
+}
+
+p {
+  font-size: 20px;
+}
