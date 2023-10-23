@@ -1,0 +1,9 @@
+.question {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.answer p{
+  font-size: 25px;
+}
