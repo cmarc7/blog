@@ -4,6 +4,12 @@ import Top from './componentes/Top';
 import Question from './componentes/Question';
 import { AiOutlineTrophy } from "react-icons/ai";
 
+Notification.requestPermission(()=>{
+  if(Notification.permission == 'granted') {
+    new Notification('Ahora vas a poder recibir notificaciones de MarcBlogs')
+  }
+})
+
 function App() {
   const wcPetList = wcPets.map(result=> {
     return <Top num={result.number}
