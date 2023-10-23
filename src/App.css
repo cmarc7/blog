@@ -1,6 +1,9 @@
 .App {
   max-width: 1200px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   font-size: 2rem;
 }
@@ -54,8 +57,30 @@ footer a {
   transition: color 0.3s ease;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
+  width: 200px;
 }
 
 footer a:hover {
   color: #bebe05;
+}
+
+@media screen and (width: 912px) {
+  p {
+    font-size: 32px;
+  }
+
+  footer p {
+    width: 500px;
+  }
+
+  footer a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 600px;
+  }
 }

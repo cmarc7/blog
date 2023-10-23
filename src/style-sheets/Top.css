@@ -44,3 +44,25 @@ h2 {
   animation-range: entry 25% cover 30%;
   animation-fill-mode: both;
 }
+
+@media screen and (width: 912px) {
+  .container-description p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-container img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .top-container {
+    width: 500px;
+  }
+
+  .container-description p {
+    font-size: 20px;
+  }
+}
