@@ -35,6 +35,12 @@ function App() {
               {QuestionsandAnswers}
         </article>
      </section>
+     <footer>
+      <section>
+      <a href='costantinimarcelo314@gmail.com'>Contáctame aquí</a>
+      <p>&copy; Copyright 2023</p>
+      </section>
+     </footer>
     </div>
   );
 }
